@@ -1,1 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
 venv/
+.venv/
+env/
+
+# Data and models (use DVC or cloud storage)
+data/
+!data/.gitkeep
+artifacts/
+!artifacts/.gitkeep
+*.pkl
+*.h5
+*.pt
+*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
